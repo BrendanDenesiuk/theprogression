@@ -1,0 +1,70 @@
+:root {
+    --main_background: #333233;
+    --main_text: #fdfdfd;
+}
+
+@font-face {
+    font-family: LTMuseum-Medium;
+    src: url('assets/typefaces/LTMuseum-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LTMuseum-Medium;
+    src: url('assets/typefaces/LTMuseum-MediumItalic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: BDGrotesk;
+    src: url('assets/typefaces/BDOGrotesk-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: BDGrotesk;
+    src: url('assets/typefaces/BDOGrotesk-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--main_background);
+    color: var(--main_text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-family: LTMuseum-Medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-left: 50%;
+    font-size: 12px;
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    grid-gap: 2%;
+}
+
+.page-grid img {
+    width: 100%;
+}
+
+.page-grid p {
+    font-family: BDGrotesk, serif;
+    font-size: 14px;
+    text-justify: auto;
+    hyphens: auto;
+}
+
