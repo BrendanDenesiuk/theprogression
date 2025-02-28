@@ -31,6 +31,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: BagnardSans;
+    src: url('assets/typefaces/BagnardSans.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: var(--main_background);
     color: var(--main_text);
@@ -47,14 +54,13 @@ body {
     align-items: center;
     text-align: right;
     padding-left: 50%;
-    font-size: 12px;
 }
 
 .page-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 60%;
-    grid-gap: 2%;
+    gap: 1rem;
 }
 
 .page-grid img {
@@ -63,7 +69,6 @@ body {
 
 .page-grid p {
     font-family: BDGrotesk, serif;
-    font-size: 14px;
     text-justify: auto;
     hyphens: auto;
 }
