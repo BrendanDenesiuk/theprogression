@@ -59,6 +59,12 @@ body {
     color: var(--main_text);
     font-family: Bagnard-Serif-Regular, serif;
     font-size: 81px;
+    cursor: pointer;
+}
+
+.header-title:hover {
+    transform: scale(0.9);
+    transition: transform 0.5s;
 }
 
 .header {
@@ -78,14 +84,7 @@ body {
     text-decoration: none;
     font-family: BagnardSans, serif;
     font-weight: lighter;
-    cursor: pointer;
 }
-
-.header h2:hover {
-    transform: scale(0.9);
-    transition: transform 0.5s;
-}
-
 /*endregion*/
 
 .quote {
