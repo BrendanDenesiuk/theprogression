@@ -38,6 +38,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Bagnard-Serif-Regular;
+    src: url('assets/typefaces/Bagnard-Serif-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: var(--main_background);
     color: var(--main_text);
@@ -46,6 +53,40 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*region Header*/
+.header-title {
+    color: var(--main_text);
+    font-family: Bagnard-Serif-Regular, serif;
+    font-size: 81px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header h2 {
+    float: left;
+    color: var(--main_text);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: BagnardSans, serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.header h2:hover {
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+
+/*endregion*/
 
 .quote {
     font-family: LTMuseum-Medium, serif;
