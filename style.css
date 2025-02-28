@@ -48,7 +48,7 @@ body {
 }
 
 .quote {
-    font-family: LTMuseum-Medium;
+    font-family: LTMuseum-Medium, serif;
     display: flex;
     justify-content: center;
     align-items: center;
