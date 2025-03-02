@@ -81,7 +81,7 @@ button {
     cursor: pointer;
     margin: 10px;
     transition: transform 0.15s;
-    font-size: 64px;
+    font-size: 32px;
     font-weight: bold;
     opacity: 30%;
 }
