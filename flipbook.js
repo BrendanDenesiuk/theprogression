@@ -52,7 +52,6 @@ nextbutton.addEventListener('click', goNextPage)
 prevbutton.addEventListener('click', goPrevPage)
 
 document.body.appendChild(prevbutton);
-// document.getElementById('book-container').appendChild(book);
 document.body.appendChild(book);
 document.body.appendChild(nextbutton);
 
