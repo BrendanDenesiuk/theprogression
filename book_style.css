@@ -81,11 +81,12 @@ button {
     cursor: pointer;
     margin: 10px;
     transition: transform 0.15s;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: bold;
     opacity: 30%;
 }
 
 button:hover {
     color: #636363;
+    transform: scale(0.7);
 }
